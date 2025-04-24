@@ -1,0 +1,39 @@
+body{
+    background: url('background.png');
+    background-size: cover;
+}
+.btn1{
+    font-size: 2rem;
+    padding: 0.5em 1em;
+    font-weight: 700;
+    border: 10px;
+    border-radius: 5px;
+    transition: transform 0.4s;
+    color: blue;
+}
+
+.btn1:hover{
+    transform: translateY(-10px);
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    color: rgb(179, 179, 179);
+}
+.back-to-home{
+    margin-top: -28px;
+    margin-top: 5px;
+    height: 65px;
+    float: left;
+    background-color: #333333;
+    border: none;
+    color: blue;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+  }
